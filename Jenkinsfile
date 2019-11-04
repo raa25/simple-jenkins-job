@@ -8,7 +8,7 @@ pipeline {
                 sh "rm -rf python-ip-script"
             }
         }
-        stage('build'){
+        stage('prepare'){
             steps {
                 sh 'pip install requests'
             }    
